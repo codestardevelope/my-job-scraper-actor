@@ -1,0 +1,24 @@
+{
+  "title": "Job Scraper Input",
+  "description": "Provide job details to start scraping",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "jobTitle": {
+      "title": "Job Title",
+      "type": "string",
+      "default": "Frontend Developer"
+    },
+    "location": {
+      "title": "Location",
+      "type": "string",
+      "default": "Bangalore"
+    },
+    "emailToNotify": {
+      "title": "Email to Notify",
+      "type": "string",
+      "default": "user@example.com"
+    }
+  },
+  "required": ["jobTitle", "location", "emailToNotify"]
+}
