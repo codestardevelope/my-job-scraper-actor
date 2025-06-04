@@ -6,16 +6,19 @@
   "properties": {
     "jobTitle": {
       "title": "Job Title",
+      "description": "Enter the job title to search for",
       "type": "string",
       "default": "Frontend Developer"
     },
     "location": {
       "title": "Location",
+      "description": "Enter the job location",
       "type": "string",
       "default": "Bangalore"
     },
     "emailToNotify": {
       "title": "Email to Notify",
+      "description": "Enter your email to receive updates",
       "type": "string",
       "default": "user@example.com"
     }
